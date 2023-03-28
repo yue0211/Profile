@@ -1,0 +1,8 @@
+body{
+    text-align:center;
+}
+
+h2{
+    height: 32px; /*為了避免元素上上下下*/
+    font-size: medium;
+}

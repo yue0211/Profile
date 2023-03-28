@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+
+table{
+    width: 60%;
+    margin: auto;  /*使區塊元素,水平置中*/
+    font-size: 1.5em;
+}
+
+td{
+    border-bottom: 1px solid blue;
+}

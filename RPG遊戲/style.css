@@ -1,0 +1,16 @@
+body{
+    text-align:center;
+}
+
+canvas{
+    border: 2px solid black;
+    background-image: url(images/grasses68.gif);
+}
+
+#talkBox{
+
+    height: 20px;  /*為了避免上下移動*/
+    color:brown;
+    font-size: 36px;
+    font-weight: bold;
+} 
