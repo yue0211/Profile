@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>漫畫小工具</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="//unpkg.com/jquery"></script>
+        <script src="anime.js"></script>
+        
+    </head>
+    <body>
+        <nav class="navbar">
+            <button id="comic">熱門連載漫畫</button>
+            <button id="anime" style="background-color:#6166B3;">新番行事曆</button>
+        </nav>
+
+        <div id="outer">
+            <h1>新番行事曆</h1>
+            <div id="chooseDate">
+                <label for="date" style="font-size: 20px;">選取時間:</label>
+                <select name="date" id="date">
+                    <option value="每週一">每週一</option>
+                    <option value="每週二">每週二</option>
+                    <option value="每週三">每週三</option>
+                    <option value="每週四">每週四</option>
+                    <option value="每週五">每週五</option>
+                    <option value="每週六">每週六</option>
+                    <option value="每週日">每週日</option>
+                </select>
+            </div>
+
+            <table id="myTable">
+                <thead>
+                  <tr>
+                    <th>名字</th>
+                    <th>首撥時間</th>
+                    <th>更新時間</th>
+                  </tr>
+                </thead>
+                <tbody id="myTableBody">
+                </tbody>
+              </table>
+
+
+
+
+        </div>
+        
+    </body>
+</html>

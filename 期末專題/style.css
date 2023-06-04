@@ -1,0 +1,147 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  z-index: 100;
+}
+
+.navbar button{
+   width:100px;
+   height:30px;
+   margin-right: 10px;
+   background-color:#333;;
+   color: #fff;
+}
+
+
+
+#comic:hover,#anime:hover{
+  background-color: #544179;
+}
+
+
+.navbar-text {
+  color: #25316D; /* 文字顏色 */
+  font-size: 18px; /* 文字大小 */
+  font-weight: 1000; /* 文字粗細 */
+  margin-right: 10px; /* 右邊距 */
+}
+
+#chooseComic,#chooseNumber {
+  width: 30%;
+  padding:5px;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+#btn{
+  width: 50px; 
+  height: 30px;
+}
+
+#outer{
+  margin-TOP: 100px;
+  margin-left: 15px;
+}
+
+#imageContainer{
+  width: 800px; /* 根据需要调整宽度值 */
+  margin: 0 auto; /* 可使页面居中 */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#imageContainer img{
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+}
+
+#scrollToTopBtn,#nextEpisode,#previousEpisode {
+  display: none; /* 初始化隱藏按鈕 */
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+#lightbtn{
+  display: block; /* 初始化隱藏按鈕 */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+
+#previousEpisode {
+  bottom: 80px;
+}
+
+#nextEpisode {
+  bottom: 140px;
+}
+
+
+#scrollToTopBtn:hover,#nextEpisode:hover,#previousEpisode:hover,#lightbtn:hover {
+  background-color: #FEF5AC;  /* 滑鼠懸停時的背景顏色 */
+}
+
+
+input{
+  width: 200px;
+  height:20px;
+  font-size: 20px;
+}
+
+
+
+table { 
+  border:1px solid #000; 
+  font-family: 微軟正黑體; 
+  font-size:16px; 
+  width:40%;
+  border:1px solid #000;
+  text-align:center;
+  border-collapse:collapse;
+  margin-top: 50px;
+} 
+th { 
+  background-color: #009FCC;
+  padding:10px;
+  border:1px solid #000;
+  color:#fff;
+} 
+td { 
+  border:1px solid #000;
+  padding:5px;
+} 
+
+select {
+  background-color: #f2f2f2;
+  color: #333333;
+  width:150px;
+  height:30px;
+  font-weight:bold;
+}
+
+

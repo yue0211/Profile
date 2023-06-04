@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>小工具</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="//unpkg.com/jquery"></script>
+        <script src="comic.js"></script>
+        <script src="btn.js"></script>
+        
+    </head>
+    <body>
+        <nav class="navbar">
+            <button id="comic" style="background-color:#6166B3;">熱門連載漫畫</button>
+            <button id="anime">新番行事曆</button>
+            <span id="titleName" class="navbar-text"></span>
+            <span id="titleEpisode" class="navbar-text"></span>
+            <span id="update" class="navbar-text" style="color:red"></span>
+        </nav>  
+
+
+        <div id="outer">
+          <h1>熱門連載漫畫<span style="margin-left:10em;color:red;">換漫畫瀏覽，請重新載入頁面</span></h1>
+          <div id="chooseComic">
+            <label for="comicNameText">選擇漫畫:</label>
+            <input list="comicName" id="comicNameText" name="comicNameText">
+            <datalist id="comicName" style="width: 200px;font-size: 20px;"></datalist>
+          </div>
+          <div id="chooseNumber">
+            <label for="number">輸入集數:</label>
+            <input list="episode" id="number" name="number">
+            <datalist id="episode" style="width: 200px;font-size: 20px;"></datalist>
+          </div> 
+          <button id="btn">確認</button>
+        </div>
+          
+        <div id="imageContainer">
+          <!-- 這裡是其他內容 -->
+        </div>
+        
+
+        
+    </body>
+</html>
